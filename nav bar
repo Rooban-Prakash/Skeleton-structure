@@ -1,0 +1,52 @@
+HTML
+
+<div class="top-nav">
+			<h1>Rooban</h1>
+			<ul>
+			<li><a href= #>Home</a></li>
+			<li><a href= #>Portfolio</a></li>
+			<li><a href= #>About</a></li>
+			<li><a href= #>Cotact</a></li>
+				</ul>
+		</div>
+    
+    
+  CSS 
+  
+* {
+	margin: 0;
+}
+div.top-nav {
+	 background-color: white;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+   postition: fixed;
+   width: 100%;
+}
+.top-nav h1 {
+	color: black;
+	padding: 14px 16px;
+	font-family: roboto;
+}
+.top-nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.top-nav ul li {
+	padding: 20px 15px;
+}
+.top-nav ul li a{
+	padding: 20px 15px;
+	height: 100%;
+	color: black;
+	text-decoration: none;
+}
+.top-nav ul li a:hover {
+	padding: 10px 15px;
+	background-color: grey;
+	color: white;
+	text-decoration: none;
+}
+	
